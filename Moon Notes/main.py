@@ -1,10 +1,13 @@
 import os
+from colorama import Fore, init
+
+init(autoreset=True)
 
 ####Variables####
-color1 = 0x000000
-color2 = 0xffffff
-fg = 0x000000
-bg = 0x000000
+color1 = Fore.MAGENTA
+color2 = Fore.MAGENTA
+fg = Fore.MAGENTA
+bg = Fore.MAGENTA
 name_template = "Moon Notes"
 
 def cls():
